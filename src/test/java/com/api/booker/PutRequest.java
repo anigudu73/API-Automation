@@ -12,7 +12,7 @@ public class PutRequest {
 				.log()
 				.all()
 				.baseUri("https://restful-booker.herokuapp.com/")
-				.basePath("booking/17")
+				.basePath("booking/59456")
 				.header("Authorization", "Basic YWRtaW46cGFzc3dvcmQxMjM=")
 				.contentType(ContentType.JSON)
 				.body("{\r\n"

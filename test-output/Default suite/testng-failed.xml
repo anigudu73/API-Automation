@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.api.booker.HeaderExample">
+      <class name="com.api.payloads.ComplexPayload">
         <methods>
-          <include name="example5"/>
+          <include name="complexJsonPayload"/>
         </methods>
-      </class> <!-- com.api.booker.HeaderExample -->
+      </class> <!-- com.api.payloads.ComplexPayload -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
